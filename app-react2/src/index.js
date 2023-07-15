@@ -3,7 +3,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import image from './images/download.jpg'
 import image2 from './images/front.png'
-
+import './style.css';
 // JSX element, header
 const header = (
   <header>
@@ -47,6 +47,14 @@ const main = (
       {user}
       {front}
     </div>
+    <div className='subscrite'>
+    <h1> Subscribe</h1>
+      <p>Sign up with your email address to receive news and updates.</p>
+      <input placeholder='First Name'></input>
+      <input placeholder='Last Name'></input>
+      <input placeholder='Email'></input>
+      <button>Subscribe</button>
+    </div>
   </main>
 )
 
@@ -59,13 +67,11 @@ const footer = (
   </footer>
 )
 
-
 // JSX element, app
 const app = (
   <div className='app'>
     {header}
     {main}
-    {footer}
   </div>
 )
 
