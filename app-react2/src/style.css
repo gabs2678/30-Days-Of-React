@@ -80,3 +80,13 @@
     text-align: center;
     line-height: 60px;
   }
+  .skills
+  {
+    background-color:#61dbfb;
+  }
+.buttonStyle
+{
+    padding: '10px 20px';
+    border:'none';
+    border-radius: 5;
+}
